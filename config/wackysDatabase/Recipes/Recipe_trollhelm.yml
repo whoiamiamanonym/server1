@@ -1,0 +1,14 @@
+name: trollhelm
+clonePrefabName: 
+craftingStation: $piece_forge
+minStationLevel: 2
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: true
+requireOnlyOneIngredient: false
+reqs:
+- Bronze:10:8:True
+- Copper:8:0:True
+- BoneFragments:8:0:True
+- TrophyFrostTroll:8:1:True

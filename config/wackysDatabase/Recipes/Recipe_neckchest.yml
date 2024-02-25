@@ -1,0 +1,14 @@
+name: neckchest
+clonePrefabName: 
+craftingStation: $piece_workbench
+minStationLevel: 2
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: true
+requireOnlyOneIngredient: false
+reqs:
+- DeerHide:10:5:True
+- Dandelion:8:0:True
+- BoneFragments:8:5:True
+- TrophyNeck:1:0:True

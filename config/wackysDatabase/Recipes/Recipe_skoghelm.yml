@@ -1,0 +1,14 @@
+name: skoghelm
+clonePrefabName: 
+craftingStation: $piece_forge
+minStationLevel: 3
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: true
+requireOnlyOneIngredient: false
+reqs:
+- Silver:25:10:True
+- TrophySGolem:1:0:True
+- TrophyEikthyr:2:0:True
+- Crystal:0:5:True

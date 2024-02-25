@@ -1,0 +1,12 @@
+name: ArmorPlateIronLegsJD
+clonePrefabName: 
+craftingStation: $piece_forge
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: $piece_forge
+amount: 1
+disabled: true
+requireOnlyOneIngredient: false
+reqs:
+- Iron:25:8:True
+- DeerHide:5:1:True

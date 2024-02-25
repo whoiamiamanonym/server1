@@ -1,0 +1,13 @@
+name: sven2chest
+clonePrefabName: 
+craftingStation: $piece_forge
+minStationLevel: 4
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: true
+requireOnlyOneIngredient: false
+reqs:
+- svenchest:1:0:True
+- BlackMetal:30:10:True
+- WolfPelt:20:10:True

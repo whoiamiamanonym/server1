@@ -1,0 +1,14 @@
+name: frostmagechest
+clonePrefabName: 
+craftingStation: $piece_magetable
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: true
+requireOnlyOneIngredient: false
+reqs:
+- Crystal:30:10:True
+- Eitr:20:10:True
+- JuteBlue:20:0:True
+- Feathers:20:0:True

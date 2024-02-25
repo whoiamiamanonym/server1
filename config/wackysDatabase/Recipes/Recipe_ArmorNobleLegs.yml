@@ -1,0 +1,12 @@
+name: ArmorNobleLegs
+clonePrefabName: 
+craftingStation: $piece_workbench
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: $piece_workbench
+amount: 1
+disabled: true
+requireOnlyOneIngredient: false
+reqs:
+- LeatherScraps:5:1:True
+- DeerHide:2:1:True

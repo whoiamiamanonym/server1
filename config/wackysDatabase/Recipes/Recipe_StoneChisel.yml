@@ -1,0 +1,12 @@
+name: StoneChisel
+clonePrefabName: 
+craftingStation: $piece_stonecutter
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: 
+amount: 10
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- FineWood:2:0:False
+- SharpeningStone:1:0:False

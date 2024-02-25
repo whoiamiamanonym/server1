@@ -1,0 +1,70 @@
+Swords:
+  level: 0
+Knives:
+  level: 0
+Clubs:
+  level: 0
+Polearms:
+  level: 0
+Spears:
+  level: 0
+Blocking:
+  level: 0
+Axes:
+  level: 0
+Bows:
+  level: 0
+Unarmed:
+  level: 0
+Pickaxes:
+  level: 100
+Woodcutting:
+  level: 100
+Sneak:
+  level: 100
+Swim:
+  level: 100
+Run:
+  level: 5
+Jump:
+  level: 0
+ElementalMagic:
+  level: 0
+BloodMagic:
+  level: 100
+Tenacity:
+  level: 100
+Vitality:
+  level: 100
+Packhorse:
+  level: 100
+Evasion:
+  level: 100
+Building:
+  level: 100
+Cooking:
+  level: 100
+Cartography:
+  level: 100
+Fitness:
+  level: 100
+Athletics:
+  level: 100
+Gathering:
+  level: 100
+Sailing:
+  level: 100
+Discipline:
+  level: 100
+Abjuration:
+  level: 100
+Alteration:
+  level: 100
+Conjuration:
+  level: 100
+Evocation:
+  level: 100
+Illusion:
+  level: 100
+Jewelcrafting:
+  level: 100

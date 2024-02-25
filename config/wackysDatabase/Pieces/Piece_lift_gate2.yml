@@ -1,0 +1,53 @@
+name: lift_gate2
+piecehammer: Hammer
+m_name: $wood_portcullis
+sizeMultiplier: 1
+m_description: $wood_portcullis_desc
+customIcon: 
+clonePrefabName: 
+material: 
+damagedMaterial: 
+craftingStation: $piece_workbench
+piecehammerCategory: Gates&Doors
+minStationLevel: 1
+amount: 1
+disabled: false
+adminonly: false
+comfort: 
+groundPiece: false
+ground: false
+waterPiece: false
+noInWater: false
+notOnFloor: false
+onlyinTeleportArea: false
+allowedInDungeons: false
+canBeRemoved: true
+wearNTearData:
+  health: 900
+  damageModifiers:
+    m_blunt: Normal
+    m_slash: Resistant
+    m_pierce: Resistant
+    m_chop: Resistant
+    m_pickaxe: Resistant
+    m_fire: Immune
+    m_frost: Immune
+    m_lightning: Resistant
+    m_poison: Resistant
+    m_spirit: Immune
+  noRoofWear: false
+  noSupportWear: true
+  supports: true
+  triggerPrivateArea: true
+craftingStationData: 
+cSExtensionData: 
+contData: 
+smelterData: 
+cookingStationData: 
+beehiveData: 
+fermStationData: 
+sapData: 
+build:
+- Wood:75:0:True
+- Bronze:8:0:True
+- Chain:4:0:True

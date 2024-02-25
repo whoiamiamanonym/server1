@@ -1,0 +1,13 @@
+name: ArmorWandererCape
+clonePrefabName: 
+craftingStation: $piece_workbench
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: $piece_workbench
+amount: 1
+disabled: true
+requireOnlyOneIngredient: false
+reqs:
+- Flax:15:5:True
+- Iron:10:3:True
+- LinenThread:10:3:True

@@ -1,0 +1,13 @@
+name: skoglegs
+clonePrefabName: 
+craftingStation: $piece_forge
+minStationLevel: 3
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: true
+requireOnlyOneIngredient: false
+reqs:
+- Silver:20:10:True
+- JuteRed:15:0:True
+- WolfHairBundle:15:5:True

@@ -1,0 +1,14 @@
+name: knightlegs
+clonePrefabName: 
+craftingStation: $piece_forge
+minStationLevel: 3
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: true
+requireOnlyOneIngredient: false
+reqs:
+- Chain:10:3:True
+- Iron:25:10:True
+- Guck:10:0:True
+- TrophyWraith:1:0:True

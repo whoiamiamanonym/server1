@@ -1,0 +1,4 @@
+name: Ghoul_FC
+mob_display_name: $enemy_ghoul_fc
+clone_creature: 
+creature_replacer: 

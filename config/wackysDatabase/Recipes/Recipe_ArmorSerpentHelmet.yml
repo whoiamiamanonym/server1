@@ -1,0 +1,14 @@
+name: ArmorSerpentHelmet
+clonePrefabName: 
+craftingStation: $piece_forge
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: $piece_forge
+amount: 1
+disabled: true
+requireOnlyOneIngredient: false
+reqs:
+- BlackMetal:15:5:True
+- Silver:10:3:True
+- LoxPelt:10:2:True
+- TrophySerpent:2:0:True

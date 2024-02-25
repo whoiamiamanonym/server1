@@ -1,0 +1,44 @@
+[
+	{
+		"name": "Out_Apparition",
+		"minExp": 210,
+		"maxExp": 262.5,
+		"level": 35
+	},
+	{
+		"name": "Out_BirchElder",
+		"minExp": 397.5,
+		"maxExp": 496.875,
+		"level": 53
+	},
+	{
+		"name": "Out_VoidCultist",
+		"minExp": 357,
+		"maxExp": 446.25,
+		"level": 51
+	},
+	{
+		"name": "Out_Voidling",
+		"minExp": 350,
+		"maxExp": 437.5,
+		"level": 50
+	},
+	{
+		"name": "Out_Wendigo",
+		"minExp": 222,
+		"maxExp": 277.5,
+		"level": 37
+	},
+	{
+		"name": "Out_Yeti",
+		"minExp": 405,
+		"maxExp": 506.25,
+		"level": 45
+	},
+	{
+		"name": "Out_VoidLord",
+		"minExp": 2475,
+		"maxExp": 3093.75,
+		"level": 55
+	}
+]

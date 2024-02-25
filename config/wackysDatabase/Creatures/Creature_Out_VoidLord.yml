@@ -1,0 +1,4 @@
+name: Out_VoidLord
+mob_display_name: $sealord
+clone_creature: 
+creature_replacer: 

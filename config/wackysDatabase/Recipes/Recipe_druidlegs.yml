@@ -1,0 +1,14 @@
+name: druidlegs
+clonePrefabName: 
+craftingStation: $piece_magetable
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: true
+requireOnlyOneIngredient: false
+reqs:
+- LeatherScraps:40:0:True
+- LoxPelt:10:0:True
+- ScaleHide:20:10:True
+- LinenThread:20:10:True

@@ -1,0 +1,14 @@
+name: neckhelm
+clonePrefabName: 
+craftingStation: $piece_workbench
+minStationLevel: 2
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: true
+requireOnlyOneIngredient: false
+reqs:
+- DeerHide:10:5:True
+- AmberPearl:3:0:True
+- Ruby:1:0:True
+- TrophyBoar:2:1:True

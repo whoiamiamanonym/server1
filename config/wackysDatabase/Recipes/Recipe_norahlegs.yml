@@ -1,0 +1,14 @@
+name: norahlegs
+clonePrefabName: 
+craftingStation: $piece_forge
+minStationLevel: 3
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: true
+requireOnlyOneIngredient: false
+reqs:
+- Iron:10:5:True
+- LinenThread:25:0:True
+- JuteRed:5:0:True
+- LeatherScraps:0:5:True

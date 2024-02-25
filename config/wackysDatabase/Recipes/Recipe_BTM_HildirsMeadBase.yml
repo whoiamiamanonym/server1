@@ -1,0 +1,14 @@
+name: BTM_HildirsMeadBase
+clonePrefabName: 
+craftingStation: $piece_cauldron
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: true
+requireOnlyOneIngredient: false
+reqs:
+- BTM_HaldorMead:1:0:True
+- SurtlingCore:1:0:True
+- AncientSeed:10:0:True
+- GreydwarfEye:10:0:True

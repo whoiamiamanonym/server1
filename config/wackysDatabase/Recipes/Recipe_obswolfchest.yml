@@ -1,0 +1,14 @@
+name: obswolfchest
+clonePrefabName: 
+craftingStation: $piece_blackforge
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: true
+requireOnlyOneIngredient: false
+reqs:
+- BlackMetal:30:10:True
+- Obsidian:30:10:True
+- WolfHairBundle:20:5:True
+- SilverNecklace:1:0:True

@@ -1,0 +1,55 @@
+name: ShipyardStation
+piecehammer: Hammer
+m_name: $shipyard
+sizeMultiplier: 1
+m_description: $shipyard_description
+customIcon: 
+clonePrefabName: 
+material: 
+damagedMaterial: 
+craftingStation: $piece_forge
+piecehammerCategory: Crafting
+minStationLevel: 1
+amount: 1
+disabled: false
+adminonly: true
+comfort: 
+groundPiece: false
+ground: false
+waterPiece: false
+noInWater: false
+notOnFloor: false
+onlyinTeleportArea: false
+allowedInDungeons: false
+canBeRemoved: true
+wearNTearData:
+  health: 1000
+  damageModifiers:
+    m_blunt: Resistant
+    m_slash: Resistant
+    m_pierce: Resistant
+    m_chop: Resistant
+    m_pickaxe: Resistant
+    m_fire: Resistant
+    m_frost: Resistant
+    m_lightning: Immune
+    m_poison: Immune
+    m_spirit: Immune
+  noRoofWear: true
+  noSupportWear: true
+  supports: false
+  triggerPrivateArea: true
+craftingStationData:
+cSExtensionData: 
+contData:
+smelterData: 
+cookingStationData: 
+fermStationData: 
+sapData: 
+build:
+- FineWood:30:0:True
+- Bronze:20:0:True
+- Coal:25:0:True
+- SledgeCheat:2:0:True
+
+

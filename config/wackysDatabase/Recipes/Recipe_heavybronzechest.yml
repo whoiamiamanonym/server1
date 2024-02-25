@@ -1,0 +1,13 @@
+name: heavybronzechest
+clonePrefabName: 
+craftingStation: $piece_forge
+minStationLevel: 2
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: true
+requireOnlyOneIngredient: false
+reqs:
+- Bronze:20:8:True
+- BoneFragments:5:3:True
+- TrophyBoar:1:0:True

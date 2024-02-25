@@ -1,0 +1,13 @@
+name: ArmorBarbarianCapeJD
+clonePrefabName: 
+craftingStation: $piece_workbench
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: $piece_workbench
+amount: 1
+disabled: true
+requireOnlyOneIngredient: false
+reqs:
+- DeerHide:8:4:True
+- Bronze:1:1:True
+- BoneFragments:5:3:True

@@ -1,0 +1,51 @@
+name: SurtrIslandWall
+piecehammer: Hammer
+m_name: $piece_surtrislandwall
+sizeMultiplier: 1
+m_description: $piece_surtrislandwall_desc
+customIcon: 
+clonePrefabName: 
+material: 
+damagedMaterial: 
+craftingStation: ''
+piecehammerCategory: Misc
+minStationLevel: 1
+amount: 1
+disabled: false
+adminonly: false
+comfort: 
+groundPiece: false
+ground: false
+waterPiece: false
+noInWater: false
+notOnFloor: false
+onlyinTeleportArea: false
+allowedInDungeons: false
+canBeRemoved: true
+wearNTearData:
+  health: 150
+  damageModifiers:
+    m_blunt: Ignore
+    m_slash: Ignore
+    m_pierce: Ignore
+    m_chop: Ignore
+    m_pickaxe: Ignore
+    m_fire: Ignore
+    m_frost: Ignore
+    m_lightning: Ignore
+    m_poison: Ignore
+    m_spirit: Ignore
+  noRoofWear: true
+  noSupportWear: true
+  supports: true
+  triggerPrivateArea: true
+craftingStationData: 
+cSExtensionData: 
+contData: 
+smelterData: 
+cookingStationData: 
+beehiveData: 
+fermStationData: 
+sapData: 
+build:
+- SledgeCheat:2:0:True

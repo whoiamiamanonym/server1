@@ -1,0 +1,13 @@
+name: Out_Hagalaz
+clonePrefabName: 
+craftingStation: ''
+minStationLevel: 0
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: true
+requireOnlyOneIngredient: false
+reqs:
+- Stone:30:0:True
+- Out_VoidOrb:10:0:True
+- SurtlingCore:4:0:True

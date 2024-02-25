@@ -1,0 +1,14 @@
+name: stjudehelm
+clonePrefabName: 
+craftingStation: $piece_blackforge
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: true
+requireOnlyOneIngredient: false
+reqs:
+- bphelm:1:0:True
+- Flametal:8:5:True
+- Eitr:15:5:True
+- TrophySerpent:1:0:True

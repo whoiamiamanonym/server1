@@ -1,0 +1,14 @@
+name: necklegs
+clonePrefabName: 
+craftingStation: $piece_workbench
+minStationLevel: 2
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: true
+requireOnlyOneIngredient: false
+reqs:
+- DeerHide:10:5:True
+- NeckTail:20:10:True
+- BoneFragments:8:0:True
+- LeatherScraps:10:0:True

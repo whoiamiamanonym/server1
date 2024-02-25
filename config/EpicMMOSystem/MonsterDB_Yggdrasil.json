@@ -1,0 +1,110 @@
+[
+	{
+		"name": "BopTick",
+		"minExp": 40,
+		"maxExp": 60,
+		"level": 18
+	},
+	{
+		"name": "DvergerCultist",
+		"minExp": 1100,
+		"maxExp": 1300,
+		"level": 65
+	},
+	{
+		"name": "GhostCrypt",
+		"minExp": 350,
+		"maxExp": 450,
+		"level": 40
+	},
+	{
+		"name": "Skeleton_Pirate",
+		"minExp": 300,
+		"maxExp": 400,
+		"level": 40
+	},
+	{
+		"name": "Surtr1",
+		"minExp": 2000,
+		"maxExp": 2500,
+		"level": 70
+	},
+	{
+		"name": "Surtr2",
+		"minExp": 3000,
+		"maxExp": 3500,
+		"level": 73
+	},
+	{
+		"name": "Surtr3",
+		"minExp": 4000,
+		"maxExp": 4500,
+		"level": 75
+	},
+	{
+		"name": "TrollMutant",
+		"minExp": 800,
+		"maxExp": 1200,
+		"level": 25
+	},
+	{
+		"name": "MountEikthyr",
+		"minExp": 1100,
+		"maxExp": 1500,
+		"level": 60
+	},
+	{
+		"name": "TrollMount",
+		"minExp": 1100,
+		"maxExp": 1500,
+		"level": 60
+	},
+	{
+		"name": "Bat_forest",
+		"minExp": 50,
+		"maxExp": 70,
+		"level": 18
+	},
+	{
+		"name": "Bat_dungeon",
+		"minExp": 300,
+		"maxExp": 450,
+		"level": 35
+	},
+	{
+		"name": "Wraithmini",
+		"minExp": 350,
+		"maxExp": 500,
+		"level": 36
+	},
+	{
+		"name": "TentaRootQU",
+		"minExp": 30,
+		"maxExp": 40,
+		"level": 16
+	},
+	{
+		"name": "BagGift1",
+		"minExp": 350,
+		"maxExp": 500,
+		"level": 40
+	},
+	{
+		"name": "BagGift2",
+		"minExp": 250,
+		"maxExp": 400,
+		"level": 35
+	},
+	{
+		"name": "BigFenring",
+		"minExp": 250,
+		"maxExp": 400,
+		"level": 20
+	},
+	{
+		"name": "Skeleton_NOwarrior",
+		"minExp": 80,
+		"maxExp": 100,
+		"level": 20
+	}
+]

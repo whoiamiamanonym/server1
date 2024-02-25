@@ -1,0 +1,36 @@
+name: RaspberryBush
+piecehammer: Cultivator
+m_name: $peRaspberryBushName
+sizeMultiplier: 1
+m_description: $peRaspberryBushDescription
+customIcon: 
+clonePrefabName: 
+material: 
+damagedMaterial: 
+craftingStation: ''
+piecehammerCategory: Misc
+minStationLevel: 1
+amount: 1
+disabled: false
+adminonly: false
+comfort: 
+groundPiece: true
+ground: true
+waterPiece: false
+noInWater: false
+notOnFloor: false
+onlyinTeleportArea: false
+allowedInDungeons: false
+canBeRemoved: true
+wearNTearData: 
+craftingStationData: 
+cSExtensionData: 
+contData: 
+smelterData: 
+cookingStationData: 
+beehiveData: 
+fermStationData: 
+sapData: 
+build:
+- Raspberry:100:1:True
+- Ygg_BlackSoil:1:0:True

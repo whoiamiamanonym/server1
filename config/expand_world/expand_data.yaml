@@ -1,0 +1,21 @@
+- name: infinite_health
+  floats:
+  - health, 1E30
+- name: default_health
+  floats:
+  - health, 0
+- name: st_healthy
+  ints:
+  - override_wear, 0
+  floats:
+  - health, 1E30
+- name: st_damaged
+  ints:
+  - override_wear, 1
+  floats:
+  - health, 1E30
+- name: st_broken
+  ints:
+  - override_wear, 3
+  floats:
+  - health, 1E30

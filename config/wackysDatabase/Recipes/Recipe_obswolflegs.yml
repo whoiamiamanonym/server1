@@ -1,0 +1,14 @@
+name: obswolflegs
+clonePrefabName: 
+craftingStation: $piece_blackforge
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: true
+requireOnlyOneIngredient: false
+reqs:
+- BlackMetal:30:10:True
+- Obsidian:30:10:True
+- WolfHairBundle:20:0:True
+- JuteBlue:10:0:True

@@ -1,0 +1,14 @@
+name: chiefhelmboar
+clonePrefabName: 
+craftingStation: $piece_workbench
+minStationLevel: 2
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: true
+requireOnlyOneIngredient: false
+reqs:
+- DeerHide:20:10:True
+- LeatherScraps:10:0:True
+- SurtlingCore:1:0:True
+- TrophyBoar:1:1:True

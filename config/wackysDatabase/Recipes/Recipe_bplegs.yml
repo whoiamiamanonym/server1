@@ -1,0 +1,13 @@
+name: bplegs
+clonePrefabName: 
+craftingStation: $piece_forge
+minStationLevel: 4
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: true
+requireOnlyOneIngredient: false
+reqs:
+- BlackMetal:20:5:True
+- Silver:5:3:True
+- JuteRed:5:0:True

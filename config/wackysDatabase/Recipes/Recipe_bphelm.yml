@@ -1,0 +1,13 @@
+name: bphelm
+clonePrefabName: 
+craftingStation: $piece_forge
+minStationLevel: 4
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: true
+requireOnlyOneIngredient: false
+reqs:
+- BlackMetal:20:5:True
+- TrophyGoblinBrute:1:0:True
+- WitheredBone:5:3:True

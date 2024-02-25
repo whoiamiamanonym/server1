@@ -1,0 +1,14 @@
+name: trolllegs
+clonePrefabName: 
+craftingStation: $piece_forge
+minStationLevel: 2
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: true
+requireOnlyOneIngredient: false
+reqs:
+- Bronze:8:5:True
+- Copper:5:0:True
+- BoneFragments:5:3:True
+- TrophyFrostTroll:1:0:True

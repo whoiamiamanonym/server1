@@ -1,0 +1,13 @@
+name: lagichest
+clonePrefabName: 
+craftingStation: $piece_blackforge
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: true
+requireOnlyOneIngredient: false
+reqs:
+- BlackMetal:30:10:True
+- Flametal:30:5:True
+- DragonEgg:5:0:True

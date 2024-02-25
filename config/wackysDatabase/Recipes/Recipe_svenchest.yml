@@ -1,0 +1,13 @@
+name: svenchest
+clonePrefabName: 
+craftingStation: $piece_forge
+minStationLevel: 4
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: true
+requireOnlyOneIngredient: false
+reqs:
+- LoxPelt:10:0:True
+- Silver:40:20:True
+- Bronze:30:10:True

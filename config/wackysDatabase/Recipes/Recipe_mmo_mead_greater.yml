@@ -1,0 +1,12 @@
+name: mmo_mead_greater
+clonePrefabName: 
+craftingStation: $piece_cauldron
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: true
+requireOnlyOneIngredient: false
+reqs:
+- Mob_chunks:1:1:True
+- mmo_orb6:1:1:True

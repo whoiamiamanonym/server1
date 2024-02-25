@@ -1,0 +1,14 @@
+name: bearhelm2
+clonePrefabName: 
+craftingStation: $piece_blackforge
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: true
+requireOnlyOneIngredient: false
+reqs:
+- bearhelm:1:0:True
+- BlackMarble:20:10:True
+- JuteBlue:10:5:True
+- TrophySeekerBrute:1:0:True

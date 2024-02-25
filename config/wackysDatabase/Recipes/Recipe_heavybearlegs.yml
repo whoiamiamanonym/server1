@@ -1,0 +1,14 @@
+name: heavybearlegs
+clonePrefabName: 
+craftingStation: $piece_blackforge
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: true
+requireOnlyOneIngredient: false
+reqs:
+- BlackMetal:30:10:True
+- Flametal:8:5:True
+- LoxPelt:15:0:True
+- SwordIron:2:0:True

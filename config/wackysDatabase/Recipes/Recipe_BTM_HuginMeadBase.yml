@@ -1,0 +1,14 @@
+name: BTM_HuginMeadBase
+clonePrefabName: 
+craftingStation: $piece_cauldron
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: true
+requireOnlyOneIngredient: false
+reqs:
+- SurtlingCore:1:0:True
+- GreydwarfEye:20:0:True
+- AncientSeed:2:0:True
+- Feathers:10:0:True

@@ -1,0 +1,4 @@
+name: Out_Voidling
+mob_display_name: $voidling
+clone_creature: 
+creature_replacer: 

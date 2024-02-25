@@ -1,0 +1,16 @@
+name: heavywolflegs
+clonePrefabName: 
+craftingStation: $piece_blackforge
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: true
+requireOnlyOneIngredient: false
+reqs:
+- Silver:30:0:True
+- Flametal:8:0:True
+- WolfHairBundle:15:0:True
+- WolfClaw:6:0:True
+- Iron:0:5:True
+- Chain:0:5:True

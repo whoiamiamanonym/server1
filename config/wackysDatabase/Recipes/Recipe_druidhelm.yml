@@ -1,0 +1,14 @@
+name: druidhelm
+clonePrefabName: 
+craftingStation: $piece_magetable
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: true
+requireOnlyOneIngredient: false
+reqs:
+- Silver:30:10:True
+- WitheredBone:20:0:True
+- Sap:20:5:True
+- YggdrasilWood:20:0:True

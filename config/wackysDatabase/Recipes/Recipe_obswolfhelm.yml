@@ -1,0 +1,15 @@
+name: obswolfhelm
+clonePrefabName: 
+craftingStation: $piece_blackforge
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: true
+requireOnlyOneIngredient: false
+reqs:
+- BlackMetal:30:10:True
+- Obsidian:30:10:True
+- TrophyUlv:5:0:True
+- Ruby:1:0:True
+- WolfHairBundle:0:5:True

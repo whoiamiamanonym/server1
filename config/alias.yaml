@@ -1,0 +1,26 @@
+change_chest: object chest=$$ radius=$$ id=$$
+change_helmet: object helmet=$$ radius=$$ id=$$
+change_left: object left_hand=$$ radius=$$ id=$$
+change_legs: object legs=$$ radius=$$ id=$$
+change_right: object right_hand=$$ radius=$$ id=$$
+change_shoulders: object shoulders=$$ radius=$$ id=$$
+change_utility: object utility=$$ radius=$$ id=$$
+essential: object tame health=1E30 radius=$$ id=$$
+hammer_area: hammer_command hammer from=x,z,y circle=r angle=a rect=w,d height=h
+hammer_object: hammer_command object from=x,z,y circle=r1-r2 angle=a rect=w1-w2,d height=h ignore=ignore
+hammer_slope: hammer_terrain_to slope
+hammer_spawn: hammer_command spawn_object $$ from=x,z,y radius=r1-r2
+hammer_terrain: hammer_command terrain from=x,z,y circle=r1-r2 angle=a rect=w1-w2,d
+hammer_terrain_to: hammer_shape rectangle;hammer_command terrain to=tx,tz,ty circle=r1-r2 rect=w1-w2,d
+health: object stars=$$ radius=$$ id=$$
+hoe_object: hoe_command object from=x,z,y circle=r1-r2 angle=a rect=w1-w2,d height=h ignore=ignore
+hoe_slope: hoe_terrain_to slope
+hoe_spawn: hoe_command spawn_object $$ from=x,z,y radius=r1-r2
+hoe_terrain: hoe_command terrain from=x,z,y circle=r1-r2 angle=a rect=w1-w2,d
+hoe_terrain_to: hammer_shape rectangle;hoe_command terrain to=tx,tz,ty circle=r1-r2 rect=w1-w2,d
+move: object move=$$,$$ radius=$$ id=$$
+remove: object remove=$$ radius=$$ id=$$
+rotate: object rotate=$$,$$ radius=$$ id=$$
+scale: object scale=$$ radius=$$ id=$$
+spawn: spawn_object $$ amount=$$ level=$$
+stars: object stars=$$ radius=$$ id=$$

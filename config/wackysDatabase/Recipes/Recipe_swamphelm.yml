@@ -1,0 +1,13 @@
+name: swamphelm
+clonePrefabName: 
+craftingStation: $piece_forge
+minStationLevel: 3
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: true
+requireOnlyOneIngredient: false
+reqs:
+- Iron:20:10:True
+- WitheredBone:10:5:True
+- TrophyBonemass:1:0:True

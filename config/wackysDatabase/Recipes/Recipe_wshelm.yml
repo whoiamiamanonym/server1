@@ -1,0 +1,15 @@
+name: wshelm
+clonePrefabName: 
+craftingStation: $piece_forge
+minStationLevel: 4
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: true
+requireOnlyOneIngredient: false
+reqs:
+- lagihelmalt:1:0:True
+- valkhelm:1:0:True
+- sven:1:0:True
+- Eitr:20:10:True
+- Silver:0:15:True

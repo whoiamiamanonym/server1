@@ -1,0 +1,14 @@
+name: skogchest
+clonePrefabName: 
+craftingStation: $piece_forge
+minStationLevel: 3
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: true
+requireOnlyOneIngredient: false
+reqs:
+- Silver:25:15:True
+- JuteRed:15:0:True
+- TrophySGolem:2:0:True
+- Crystal:0:10:True

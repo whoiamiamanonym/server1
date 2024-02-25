@@ -1,0 +1,13 @@
+name: Out_Fehu
+clonePrefabName: 
+craftingStation: ''
+minStationLevel: 0
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: true
+requireOnlyOneIngredient: false
+reqs:
+- Stone:30:0:True
+- Coins:200:0:True
+- Ruby:4:0:True

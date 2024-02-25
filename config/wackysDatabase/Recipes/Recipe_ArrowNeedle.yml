@@ -1,0 +1,12 @@
+name: ArrowNeedle
+clonePrefabName: 
+craftingStation: $piece_workbench
+minStationLevel: 4
+maxStationLevelCap: 
+repairStation: 
+amount: 20
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- Needle:4:1:True
+- Feathers:2:1:True

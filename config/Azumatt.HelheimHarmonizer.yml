@@ -1,0 +1,396 @@
+# Below you can find example groups. Groups are used to exclude or includeOverride quickly. They are reusable lists! 
+# Please note that some of these groups/container limitations are kinda pointless but are here for example.
+# Make sure to follow the format of the example below. If you have any questions, please ask in my discord.
+
+# Full vanilla prefab name list: https://valheim-modding.github.io/Jotunn/data/prefabs/prefab-list.html
+# Item prefab name list: https://valheim-modding.github.io/Jotunn/data/objects/item-list.html
+
+# There are several predefined groups set up for you that are not listed. You can use these just like you would any group you create yourself.
+# These are the "All", "Food", "Potion", "Fish", "Swords", "Bows", "Crossbows", "Axes", "Clubs", "Knives", "Pickaxes", "Polearms", "Spears", "Equipment", "Boss Trophy", "Trophy", "Crops", "Seeds", "Ores", "Metals", and "Woods" groups.
+# The criteria for these groups are as follows:
+# groups:
+#   Food:
+#     - Criteria: Both of the following properties must have a value greater than 0.0 on the sharedData property of the ItemDrop script:
+#         - food
+#         - foodStamina
+#   Potion:
+#     - Criteria: The following properties must meet the specified conditions on the sharedData property of the ItemDrop script:
+#         - food > 0.0
+#         - foodStamina == 0.0
+#   Fish:
+#     - itemType: Fish
+#   Swords, Bows, Crossbows, Axes, Clubs, Knives, Pickaxes, Polearms, Spears:
+#     - itemType: OneHandedWeapon, TwoHandedWeapon, TwoHandedWeaponLeft, Bow
+#     - Criteria: Items in these groups have a specific skillType on the sharedData property of the ItemDrop script. Each group corresponds to the skillType as follows:
+#         - Swords: skillType == Skills.SkillType.Swords
+#         - Bows: skillType == Skills.SkillType.Bows
+#         - Crossbows: skillType == Skills.SkillType.Crossbows
+#         - Axes: skillType == Skills.SkillType.Axes
+#         - Clubs: skillType == Skills.SkillType.Clubs
+#         - Knives: skillType == Skills.SkillType.Knives
+#         - Pickaxes: skillType == Skills.SkillType.Pickaxes
+#         - Polearms: skillType == Skills.SkillType.Polearms
+#         - Spears: skillType == Skills.SkillType.Spears
+#            Example:   An item with itemType set to OneHandedWeapon and skillType set to Skills.SkillType.Swords would belong to the Swords group.
+#   Armor:
+#     - itemType: Chest, Legs, Hands, Helmet, Shoulder
+#   Equipment:
+#     - itemType: Torch
+#   Boss Trophy:
+#     - itemType: Trophie
+#     - Criteria: sharedData.m_name ends with any of the following boss names:
+#         - eikthyr, elder, bonemass, dragonqueen, goblinking, SeekerQueen
+#   Trophy:
+#     - itemType: Trophie
+#     - Criteria: sharedData.m_name does not end with any boss names
+#   Crops:
+#     - itemType: Material
+#     - Criteria: Can be cultivated and grown into a pickable object with an amount greater than 1
+#   Seeds:
+#     - itemType: Material
+#     - Criteria: Can be cultivated and grown into a pickable object with an amount equal to 1
+#   Ores:
+#     - itemType: Material
+#     - Criteria: Can be processed by any of the following smelters:
+#         - smelter
+#         - blastfurnace
+#   Metals:
+#     - itemType: Material
+#     - Criteria: Is the result of processing an ore in any of the following smelters:
+#         - smelter
+#         - blastfurnace
+#   Woods:
+#     - itemType: Material
+#     - Criteria: Can be processed by the charcoal_kiln smelter
+#   All:
+#     - Criteria: Item has an ItemDrop script and all needed fields are populated. (all items)
+
+
+groups:
+  Swords:
+    - SwordBlackmetal
+    - SwordBronze
+    - SwordIron
+    - SwordCheat
+    - SwordIron
+    - SwordIronFire
+    - SwordMistwalker
+    - SwordSilver
+    - THSwordKrom
+    - SwordSurtr
+  Bows:
+    - Bow
+    - BowFineWood
+    - BowHuntsman
+    - BowDraugrFang
+    - BowSpineSnap
+  Crossbows:
+    - CrossbowArbalest
+    - BBP_Crossbow_Flint
+    - BBP_Crossbow_Bronze
+    - BBP_Crossbow_Iron
+    - BBP_Crossbow_Silver
+    - BBP_Crossbow_BlackMetal
+  Axes:
+    - AxeStone
+    - AxeFlint
+    - AxeBronze
+    - AxeIron
+    - Battleaxe
+    - Battleaxe
+    - BattleaxeCrystal
+    - AxeBlackMetal
+    - AxeJotunBane
+  Clubs:
+    - Club
+    - Torch
+  Knives:
+    - KnifeFlint
+    - KnifeCopper
+    - KnifeChitin
+    - KnifeSilver
+    - KnifeBlackMetal
+    - KnifeSkollAndHati
+  Polearms:
+    - AtgeirBronze
+    - AtgeirIron
+    - AtgeirBlackmetal
+    - AtgeirHimminAfl
+  Spears:
+    - SpearFlint
+    - SpearBronze
+    - SpearCarapace
+    - SpearChitin
+    - SpearElderbark
+    - SpearWolfFang
+  Staffs:
+    - StaffFireball
+    - StaffIceShards
+    - StaffShield
+    - StaffSkeleton
+  Maces:
+    - MaceBronze
+    - MaceIron
+    - MaceNeedle
+    - MaceSilver
+    - MaceIronEnchanted
+  Sledge:
+    - SledgeCheat
+    - SledgeDemolisher
+    - SledgeIron
+    - SledgeStagbreaker
+  Shields:
+    - ShieldBanded
+    - ShieldBlackmetal
+    - ShieldBlackmetalTower
+    - ShieldBoneTower
+    - ShieldBronzeBuckler
+    - ShieldCarapace
+    - ShieldCarapaceBuckler
+    - ShieldIronBuckler
+    - ShieldIronSquare
+    - ShieldIronTower
+    - ShieldKnight
+    - ShieldSerpentscale
+    - ShieldSilver
+    - ShieldWood
+  Pets:
+    - EikthyrSummon
+    - TrollSummon
+  Arrows:
+    - ArrowBronze
+    - ArrowCarapace
+    - ArrowFire
+    - ArrowFlint
+    - ArrowFrost
+    - ArrowIron
+    - ArrowNeedle
+    - ArrowObsidian
+    - ArrowPoison
+    - ArrowSilver
+    - ArrowWood
+    - BBP_ExplodingArrow_Fire
+    - BBP_ExplodingArrow_Frost
+    - BBP_ExplodingArrow_Poison
+  Bolts:
+    - BoltBlackmetal
+    - BoltBone
+    - BoltCarapace
+    - BoltIron
+    - TurretBolt
+    - TurretBoltWood
+    - BBP_Bolt_Bronze
+    - BBP_Bolt_Flint
+    - BBP_Bolt_Wood
+    - BBP_ExplodingBolt_Fire
+    - BBP_ExplodingBolt_Frost
+    - BBP_ExplodingBolt_Poison
+  Pickaxes:
+    - PickaxeStone
+    - PickaxeAntler
+    - PickaxeBronze
+    - PickaxeIron
+    - PickaxeBlackMetal
+  Armor:
+    - ArmorBronzeChest
+    - ArmorBronzeLegs
+    - ArmorCarapaceChest
+    - ArmorCarapaceLegs
+    - ArmorFenringChest
+    - ArmorFenringLegs
+    - ArmorIronChest
+    - ArmorIronLegs
+    - ArmorLeatherChest
+    - ArmorLeatherLegs
+    - ArmorMageChest
+    - ArmorMageLegs
+    - ArmorPaddedCuirass
+    - ArmorPaddedGreaves
+    - ArmorRagsChest
+    - ArmorRagsLegs
+    - ArmorRootChest
+    - ArmorRootLegs
+    - ArmorTrollLeatherChest
+    - ArmorTrollLeatherLegs
+    - ArmorWolfChest
+    - ArmorWolfLegs
+    - ElderChest
+    - ElderLegs
+  Capes:
+    - CapeDeerHide
+    - CapeFeather
+    - CapeLinen
+    - CapeLox
+    - CapeOdin
+    - CapeTrollHide
+    - CapeWolf
+  Helmets:
+    - HelmetBronze
+    - HelmetCarapace
+    - HelmetDrake
+    - HelmetDverger
+    - HelmetFenring
+    - HelmetOdin
+    - HelmetIron
+    - HelmetLeather
+    - HelmetMage
+    - HelmetPadded
+    - HelmetRoot
+    - HelmetTrollLeather
+    - ElderHelmet
+  HelmsDecor:
+    - HelmetMidsummerCrown
+    - HelmetFishingHat
+    - HelmetYule
+    - HelmetDverger
+    - ChiffTrollHat
+    - LokiHelmet
+    - SurtMask
+  Accessories:
+    - LeatherBelt
+    - SilverRing
+    - GoldRubyRing
+    - Andvaranaut
+  Dress:
+    - ArmorDress1
+    - ArmorDress10
+    - ArmorDress2
+    - ArmorDress3
+    - ArmorDress4
+    - ArmorDress5
+    - ArmorDress6
+    - ArmorDress7
+    - ArmorDress8
+    - ArmorDress9
+    - ArmorTunic1
+    - ArmorTunic10
+    - ArmorTunic2
+    - ArmorTunic3
+    - ArmorTunic4
+    - ArmorTunic5
+    - ArmorTunic6
+    - ArmorTunic7
+    - ArmorTunic8
+    - ArmorTunic9
+    - HelmetHat1
+    - HelmetHat10
+    - HelmetHat2
+    - HelmetHat3
+    - HelmetHat4
+    - HelmetHat5
+    - HelmetHat6
+    - HelmetHat7
+    - HelmetHat8
+    - HelmetHat9
+  Tools:
+    - Hammer
+    - Hoe
+    - PlanHammer
+    - Cultivator
+  QuestItems:
+    - MushroomBlue
+    - BopKey
+    - KeySeydkona
+    - KeyPrison
+    - KeyOld
+    - KingKey
+    - RelicTP
+    - BloodOfElders
+    - BloodOfElders2
+    - AmuletOfTruth
+    - BirchFlesh
+    - boptrash
+    - BucketOfSausages
+    - BlueprintScroll
+    - BlueprintExt1Scroll
+    - BottleOfMild
+    - EikthyrEssence
+    - BossesEssence
+    - RuneDruid
+    - RuneWhispering
+    - FireEssence
+    - LokiHelmetQuest
+    - MemoryJar
+    - NornPThread
+    - PieceOfMemory1
+    - PieceOfMemory2
+    - PieceOfMemory3
+    - PieceOfMemory4
+    - PieceOfSoul
+    - RuneMemory
+    - ScrollQuest
+    - ScrollQuest2
+    - SoulOfSurtr
+    - SoulOfSword
+    - TearHealing
+    - BananaKnife
+    - BananaKnifeBroken
+    - QuestGift
+    
+# Please note that the inventory and hotbar sections are exclusive.
+# If the item is excluded from the inventory but the item is in the hotbar, it will be dropped in the hotbar. This is the same for the other way around.
+# To explain more simply, if you want to keep an item no matter what, you must include it in both sections. Otherwise, it will be dropped/destroyed in the section that it is not excluded from.
+
+# Configure inventory rules here.
+inventory:
+  exclude: # List groups or individual items to exclude from dropping in the main inventory.
+    - Armor
+    - Helmets
+    - Capes
+    - HelmsDecor
+    - Accessories
+    - Dress
+    - Swords
+    - Bows
+    - Crossbows
+    - Axes
+    - Clubs
+    - Knives
+    - Pickaxes
+    - Tools
+    - Polearms
+    - Spears
+    - Arrows
+    - Bolts
+    - Staffs
+    - Maces
+    - Sledge
+    - Shields
+    - Pets
+    - QuestItems
+  #includeOverride: # List groups or individual items to always drop in the main inventory, even if they are listed in the exclude section of the inventory.
+  #destroy: # List groups or individual items to destroy instead of dropping in the main inventory.
+    #- Arrows # Destroy the item "Arrows" instead of dropping it in the main inventory.
+    #- Scraps # Destroy the item "Scraps" instead of dropping it in the main inventory.
+
+# Configure hotbar rules here.
+hotbar:
+  exclude: # List groups or individual items to exclude from dropping in the hotbar.
+    - Armor
+    - Helmets
+    - Capes
+    - HelmsDecor
+    - Accessories
+    - Dress
+    - Swords
+    - Bows
+    - Crossbows
+    - Axes
+    - Clubs
+    - Knives
+    - Pickaxes
+    - Tools
+    - Polearms
+    - Spears
+    - Arrows
+    - Bolts
+    - Staffs
+    - Maces
+    - Sledge
+    - Shields
+    - Pets
+    - QuestItems
+  #includeOverride: # List groups or individual items to always drop in the hotbar, even if they are listed in the exclude section.
+  #destroy: # List groups or individual items to destroy instead of dropping in the hotbar.
+    #- Arrows # Destroy the item "Arrows" instead of dropping it in the hotbar.
+    #- Scraps # Destroy the item "Scraps" instead of dropping it in the hotbar.

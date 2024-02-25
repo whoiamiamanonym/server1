@@ -1,0 +1,14 @@
+name: BackpackHeavy
+clonePrefabName: 
+craftingStation: $piece_workbench
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: $piece_workbench
+amount: 1
+disabled: true
+requireOnlyOneIngredient: false
+reqs:
+- Wood:20:5:True
+- DeerHide:5:3:True
+- IronNails:10:5:True
+- Iron:2:1:True

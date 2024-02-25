@@ -1,0 +1,4 @@
+name: Out_VoidCultist
+mob_display_name: $voidcultist
+clone_creature: 
+creature_replacer: 

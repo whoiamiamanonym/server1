@@ -1,0 +1,751 @@
+- PrefabName: MaceBronze
+  Requirements:
+  - Skill: Level
+    Level: 12
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+- PrefabName: MaceIron
+  Requirements:
+  - Skill: Level
+    Level: 30
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+- PrefabName: MaceIronEnchanted
+  Requirements:
+  - Skill: Level
+    Level: 35
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+- PrefabName: MaceSilver
+  Requirements:
+  - Skill: Level
+    Level: 40
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+- PrefabName: MaceNeedle
+  Requirements:
+  - Skill: Level
+    Level: 50
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+- PrefabName: AtgeirBronze
+  Requirements:
+  - Skill: Level
+    Level: 12
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+- PrefabName: AtgeirIron
+  Requirements:
+  - Skill: Level
+    Level: 30
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+- PrefabName: AtgeirBlackmetal
+  Requirements:
+  - Skill: Level
+    Level: 50
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+- PrefabName: AtgeirHimminAfl
+  Requirements:
+  - Skill: Level
+    Level: 60
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+- PrefabName: AxeFlint
+  Requirements:
+  - Skill: Level
+    Level: 0
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+- PrefabName: AxeBronze
+  Requirements:
+  - Skill: Level
+    Level: 12
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+- PrefabName: AxeIron
+  Requirements:
+  - Skill: Level
+    Level: 30
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+- PrefabName: AxeBlackMetal
+  Requirements:
+  - Skill: Level
+    Level: 50
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+- PrefabName: AxeJotunBane
+  Requirements:
+  - Skill: Level
+    Level: 60
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+- PrefabName: SwordBronze
+  Requirements:
+  - Skill: Level
+    Level: 15
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+- PrefabName: SwordIron
+  Requirements:
+  - Skill: Level
+    Level: 30
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+- PrefabName: SwordSilver
+  Requirements:
+  - Skill: Level
+    Level: 40
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+- PrefabName: SwordBlackmetal
+  Requirements:
+  - Skill: Level
+    Level: 50
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+- PrefabName: SwordMistwalker
+  Requirements:
+  - Skill: Level
+    Level: 60
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+- PrefabName: THSwordKrom
+  Requirements:
+  - Skill: Level
+    Level: 60
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+- PrefabName: Bow
+  Requirements:
+  - Skill: Level
+    Level: 0
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+- PrefabName: BowFineWood
+  Requirements:
+  - Skill: Level
+    Level: 12
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+- PrefabName: BowHuntsman
+  Requirements:
+  - Skill: Level
+    Level: 30
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+- PrefabName: BowDraugrFang
+  Requirements:
+  - Skill: Level
+    Level: 40
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+- PrefabName: BowSpineSnap
+  Requirements:
+  - Skill: Level
+    Level: 60
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+- PrefabName: KnifeCopper
+  Requirements:
+  - Skill: Level
+    Level: 12
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+- PrefabName: KnifeChitin
+  Requirements:
+  - Skill: Level
+    Level: 25
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+- PrefabName: KnifeSilver
+  Requirements:
+  - Skill: Level
+    Level: 40
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+- PrefabName: KnifeBlackMetal
+  Requirements:
+  - Skill: Level
+    Level: 50
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+- PrefabName: KnifeSkollAndHati
+  Requirements:
+  - Skill: Level
+    Level: 60
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName:
+- PrefabName: SpearBronze
+  Requirements:
+  - Skill: Level
+    Level: 12
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+- PrefabName: SpearChitin
+  Requirements:
+  - Skill: Level
+    Level: 25
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+- PrefabName: SpearWolfFang
+  Requirements:
+  - Skill: Level
+    Level: 40
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+- PrefabName: SpearCarapace
+  Requirements:
+  - Skill: Level
+    Level: 60
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+- PrefabName: CrossbowArbalest
+  Requirements:
+  - Skill: Level
+    Level: 60
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+- PrefabName: FistFenrirClaw
+  Requirements:
+  - Skill: Level
+    Level: 40
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+- PrefabName: StaffIceShards
+  Requirements:
+  - Skill: Level
+    Level: 60
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+- PrefabName: StaffSkeleton
+  Requirements:
+  - Skill: Level
+    Level: 60
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+- PrefabName: StaffFireball
+  Requirements:
+  - Skill: Level
+    Level: 60
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+- PrefabName: StaffShield
+  Requirements:
+  - Skill: Level
+    Level: 60
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+  - Skill: Intellect
+    Level: 130
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+- PrefabName: SledgeStagbreaker
+  Requirements:
+  - Skill: Level
+    Level: 5
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+- PrefabName: SledgeIron
+  Requirements:
+  - Skill: Level
+    Level: 30
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+- PrefabName: Demolisher
+  Requirements:
+  - Skill: Level
+    Level: 60
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+- PrefabName: ShieldWoodTower
+  Requirements:
+  - Skill: Level
+    Level: 5
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+- PrefabName: ShieldBoneTower
+  Requirements:
+  - Skill: Level
+    Level: 6
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName:
+- PrefabName: ShieldBronzeBuckler
+  Requirements:
+  - Skill: Level
+    Level: 12
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+- PrefabName: ShieldIronBuckler
+  Requirements:
+  - Skill: Level
+    Level: 30
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+- PrefabName: ShieldBanded
+  Requirements:
+  - Skill: Level
+    Level: 30
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+- PrefabName: ShieldIronTower
+  Requirements:
+  - Skill: Level
+    Level: 35
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+- PrefabName: ShieldSilver
+  Requirements:
+  - Skill: Level
+    Level: 40
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+- PrefabName: ShieldSerpentscale
+  Requirements:
+  - Skill: Level
+    Level: 45
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+- PrefabName: ShieldBlackmetal
+  Requirements:
+  - Skill: Level
+    Level: 50
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+- PrefabName: ShieldBlackmetalTower
+  Requirements:
+  - Skill: Level
+    Level: 55
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+- PrefabName: ShieldCarapace
+  Requirements:
+  - Skill: Level
+    Level: 60
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+- PrefabName: ShieldCarapaceBuckler
+  Requirements:
+  - Skill: Level
+    Level: 60
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+- PrefabName: ArmorBronzeLegs
+  Requirements:
+  - Skill: Level
+    Level: 15
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+- PrefabName: ArmorBronzeChest
+  Requirements:
+  - Skill: Level
+    Level: 15
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+- PrefabName: HelmetBronze
+  Requirements:
+  - Skill: Level
+    Level: 15
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+- PrefabName: ArmorTrollLeatherChest
+  Requirements:
+  - Skill: Level
+    Level: 12
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+- PrefabName: ArmorTrollLeatherLegs
+  Requirements:
+  - Skill: Level
+    Level: 12
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+- PrefabName: CapeTrollHide
+  Requirements:
+  - Skill: Level
+    Level: 12
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+- PrefabName: HelmetTrollLeather
+  Requirements:
+  - Skill: Level
+    Level: 12
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+- PrefabName: HelmetTrollTar
+  Requirements:
+  - Skill: Level
+    Level: 12
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+- PrefabName: ArmorTrollTarChest
+  Requirements:
+  - Skill: Level
+    Level: 12
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+- PrefabName: ArmorTrollTarLegs
+  Requirements:
+  - Skill: Level
+    Level: 12
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+- PrefabName: CapeTrollTar
+  Requirements:
+  - Skill: Level
+    Level: 12
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName: 
+- PrefabName: HelmetIron
+  Requirements:
+  - Skill: Level
+    Level: 30
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName:
+- PrefabName: ArmorIronChest
+  Requirements:
+  - Skill: Level
+    Level: 30
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName:
+- PrefabName: ArmorIronLegs
+  Requirements:
+  - Skill: Level
+    Level: 30
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName:
+- PrefabName: ArmorRootChest
+  Requirements:
+  - Skill: Level
+    Level: 30
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName:
+- PrefabName: ArmorRootLegs
+  Requirements:
+  - Skill: Level
+    Level: 30
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName:
+- PrefabName: HelmetRoot
+  Requirements:
+  - Skill: Level
+    Level: 30
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName:
+- PrefabName: SwampChildCape
+  Requirements:
+  - Skill: Level
+    Level: 30
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName:
+- PrefabName: HelmetDrake
+  Requirements:
+  - Skill: Level
+    Level: 40
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName:
+- PrefabName: ArmorWolfChest
+  Requirements:
+  - Skill: Level
+    Level: 40
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName:
+- PrefabName: ArmorWolfLegs
+  Requirements:
+  - Skill: Level
+    Level: 40
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName:
+- PrefabName: CapeWolf
+  Requirements:
+  - Skill: Level
+    Level: 40
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName:
+- PrefabName: HelmetFenring
+  Requirements:
+  - Skill: Level
+    Level: 40
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName:
+- PrefabName: ArmorFenringChest
+  Requirements:
+  - Skill: Level
+    Level: 40
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName:
+- PrefabName: ArmorFenringLegs
+  Requirements:
+  - Skill: Level
+    Level: 40
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName:
+- PrefabName: HelmetPadded
+  Requirements:
+  - Skill: Level
+    Level: 50
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName:
+- PrefabName: ArmorPaddedCuirass
+  Requirements:
+  - Skill: Level
+    Level: 50
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName:
+- PrefabName: ArmorPaddedGreaves
+  Requirements:
+  - Skill: Level
+    Level: 50
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName:
+- PrefabName: CapeLox
+  Requirements:
+  - Skill: Level
+    Level: 50
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName:
+- PrefabName: CapeLinen
+  Requirements:
+  - Skill: Level
+    Level: 50
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName:
+- PrefabName: HelmetCarapace
+  Requirements:
+  - Skill: Level
+    Level: 60
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName:
+- PrefabName: ArmorCarapaceChest
+  Requirements:
+  - Skill: Level
+    Level: 60
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName:
+- PrefabName: ArmorCarapaceChest
+  Requirements:
+  - Skill: Level
+    Level: 60
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName:
+- PrefabName: ArmorCarapaceLegs
+  Requirements:
+  - Skill: Level
+    Level: 60
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName:
+- PrefabName: HelmetMage
+  Requirements:
+  - Skill: Level
+    Level: 60
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName:
+- PrefabName: ArmorMageChest
+  Requirements:
+  - Skill: Level
+    Level: 60
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName:
+- PrefabName: ArmorMageLegs
+  Requirements:
+  - Skill: Level
+    Level: 60
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName:
+- PrefabName: CapeFeather
+  Requirements:
+  - Skill: Level
+    Level: 0
+    BlockCraft: false
+    BlockEquip: true
+    EpicMMO: true
+    ExhibitionName:
+    

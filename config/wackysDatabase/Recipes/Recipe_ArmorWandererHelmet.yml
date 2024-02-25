@@ -1,0 +1,13 @@
+name: ArmorWandererHelmet
+clonePrefabName: 
+craftingStation: $piece_forge
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: $piece_forge
+amount: 1
+disabled: true
+requireOnlyOneIngredient: false
+reqs:
+- Flax:15:5:True
+- Iron:10:3:True
+- LinenThread:10:3:True

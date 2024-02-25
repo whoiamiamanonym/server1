@@ -1,0 +1,58 @@
+name: piece_chest_tarred
+piecehammer: Hammer
+m_name: Dock Cargo
+sizeMultiplier: 1
+m_description: A massive 40 slot chest made of tarred wood
+customIcon: 
+clonePrefabName: 
+material: 
+damagedMaterial: 
+craftingStation: $piece_workbench
+piecehammerCategory: Furniture
+minStationLevel: 1
+amount: 1
+disabled: true
+adminonly: true
+comfort: 
+groundPiece: false
+ground: false
+waterPiece: false
+noInWater: false
+notOnFloor: false
+onlyinTeleportArea: false
+allowedInDungeons: false
+canBeRemoved: true
+wearNTearData:
+  health: 1000
+  damageModifiers:
+    m_blunt: Resistant
+    m_slash: Resistant
+    m_pierce: Resistant
+    m_chop: Resistant
+    m_pickaxe: Resistant
+    m_fire: Weak
+    m_frost: Resistant
+    m_lightning: Weak
+    m_poison: Immune
+    m_spirit: Immune
+  noRoofWear: false
+  noSupportWear: true
+  supports: false
+  triggerPrivateArea: true
+craftingStationData: 
+cSExtensionData: 
+contData:
+  Width: 8
+  Height: 5
+  CheckWard: true
+  AutoDestoryIfEmpty: false
+smelterData: 
+cookingStationData: 
+fermStationData: 
+sapData: 
+build:
+- FineWood:15:0:True
+- Wood:15:0:True
+- BronzeNails:35:0:True
+- LeatherScraps:15:0:True
+- Feathers:10:0:True

@@ -1,0 +1,12 @@
+name: knighthelm
+clonePrefabName: 
+craftingStation: $piece_forge
+minStationLevel: 3
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: true
+requireOnlyOneIngredient: false
+reqs:
+- Iron:25:10:True
+- TrophySerpent:1:0:True

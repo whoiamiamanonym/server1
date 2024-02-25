@@ -1,0 +1,14 @@
+name: runeknightchest
+clonePrefabName: 
+craftingStation: $piece_blackforge
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: true
+requireOnlyOneIngredient: false
+reqs:
+- knightchest:1:0:True
+- BlackMetal:30:15:True
+- Eitr:30:10:True
+- BlackCore:2:0:True

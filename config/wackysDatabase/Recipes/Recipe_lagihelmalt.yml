@@ -1,0 +1,13 @@
+name: lagihelmalt
+clonePrefabName: 
+craftingStation: $piece_blackforge
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: true
+requireOnlyOneIngredient: false
+reqs:
+- TrophyDragonQueen:1:0:True
+- Flametal:20:5:True
+- BlackMetal:20:10:True

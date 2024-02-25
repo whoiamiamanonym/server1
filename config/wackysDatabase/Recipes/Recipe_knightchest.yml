@@ -1,0 +1,13 @@
+name: knightchest
+clonePrefabName: 
+craftingStation: $piece_forge
+minStationLevel: 3
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: true
+requireOnlyOneIngredient: false
+reqs:
+- Chain:10:3:True
+- Iron:25:10:True
+- LeatherScraps:30:0:True

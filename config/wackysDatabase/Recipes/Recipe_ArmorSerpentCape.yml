@@ -1,0 +1,12 @@
+name: ArmorSerpentCape
+clonePrefabName: 
+craftingStation: $piece_workbench
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: $piece_workbench
+amount: 1
+disabled: true
+requireOnlyOneIngredient: false
+reqs:
+- Silver:5:1:True
+- LinenThread:20:5:True

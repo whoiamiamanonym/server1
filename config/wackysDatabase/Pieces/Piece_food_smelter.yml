@@ -1,0 +1,82 @@
+name: food_smelter
+piecehammer: Hammer
+m_name: $food_smelter
+sizeMultiplier: 1
+m_description: $food_smelter_desc
+customIcon: 
+clonePrefabName: 
+material: 
+damagedMaterial: 
+craftingStation: $piece_workbench
+piecehammerCategory: Crafting
+minStationLevel: 1
+amount: 1
+disabled: false
+adminonly: false
+comfort: 
+groundPiece: false
+ground: false
+waterPiece: false
+noInWater: true
+notOnFloor: false
+onlyinTeleportArea: false
+allowedInDungeons: true
+canBeRemoved: true
+wearNTearData:
+  health: 2000
+  damageModifiers:
+    m_blunt: Resistant
+    m_slash: Resistant
+    m_pierce: Resistant
+    m_chop: Resistant
+    m_pickaxe: Normal
+    m_fire: Immune
+    m_frost: Immune
+    m_lightning: Normal
+    m_poison: Immune
+    m_spirit: Immune
+  noRoofWear: false
+  noSupportWear: true
+  supports: true
+  triggerPrivateArea: true
+craftingStationData: 
+cSExtensionData: 
+contData: 
+smelterData:
+  smelterName: food_smelter
+  addOreTooltip: $food_smelter_additem
+  emptyOreTooltip: $food_smelter_empty
+  fuelItem:
+    name: Coal
+  maxOre: 100
+  maxFuel: 100
+  fuelPerProduct: 1
+  secPerProduct: 5
+  spawnStack: false
+  requiresRoof: false
+  addOreAnimationLength: 0
+  smelterConversion:
+  - FromName: NeckTail
+    ToName: NeckTailGrilled
+  - FromName: RawMeat
+    ToName: CookedMeat
+  - FromName: NeckTail
+    ToName: NeckTailGrilled
+  - FromName: DeerMeat
+    ToName: CookedDeerMeat
+  - FromName: FishRaw
+    ToName: FishCooked
+  - FromName: WolfMeat
+    ToName: CookedWolfMeat
+  - FromName: SerpentMeat
+    ToName: SerpentMeatCooked
+  - FromName: LoxMeat
+    ToName: CookedLoxMeat
+cookingStationData: 
+beehiveData: 
+fermStationData: 
+sapData: 
+build:
+- Coal:20:0:True
+- SurtlingCore:10:0:True
+- Bronze:15:0:True

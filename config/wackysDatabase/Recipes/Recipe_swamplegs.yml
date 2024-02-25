@@ -1,0 +1,13 @@
+name: swamplegs
+clonePrefabName: 
+craftingStation: $piece_forge
+minStationLevel: 3
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: true
+requireOnlyOneIngredient: false
+reqs:
+- Iron:20:10:True
+- WitheredBone:10:5:True
+- TrophySkeleton:4:0:True

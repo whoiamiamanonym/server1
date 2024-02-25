@@ -1,0 +1,14 @@
+name: ArmorDragonslayerHelmet
+clonePrefabName: 
+craftingStation: $piece_forge
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: $piece_forge
+amount: 1
+disabled: true
+requireOnlyOneIngredient: false
+reqs:
+- Silver:20:5:True
+- WolfPelt:10:3:True
+- Obsidian:10:3:True
+- TrophyHatchling:2:0:True
